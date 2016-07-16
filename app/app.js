@@ -6,6 +6,9 @@ var minhasKamalPersonalWebsite = angular.module('minhasKamalPersonalWebsite', [
 	'contactModule',
 	'workModule',
 	'errorModule',
+	'sidebarModule',
+	'siteHeaderModule',
+	'siteFooterModule',
 ]);
 
 minhasKamalPersonalWebsite.config([
