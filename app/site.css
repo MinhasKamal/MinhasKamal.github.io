@@ -1,16 +1,95 @@
-.sidebar{
-	
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
 }
 
-.sidebar a{
-	background-color: #4A4F64;
-	color: #FFFFFF;
+
+.sidebar{
+	padding: 1em 0em 1em 1em;
+	background-color: #FFFFFF;
+	position: relative;
 }
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	background-color: #E9EAF1;
+}
+.sidebar li a {
+    display: block;
+    color: #4A4F64;
+    padding: 0.5em 0 0.5em 0.8em;
+    text-decoration: none;
+	text-transform: capitalize;
+}
+.sidebar li a.active {
+    background-color: #4A4F64;
+    color: #FFFFFF;
+}
+.sidebar li a:hover:not(.active) {
+    background-color: #d0d2e1;
+    color: #4A4F64;
+}
+.sidebar .profile{
+	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	background-color: #E9EAF1;
+}
+.sidebar .profile .profile-picture{
+	margin: auto;
+}
+.sidebar .profile  h1{
+	text-align: center;
+    font-size: 2.5em;
+    color: #4A4F64;
+	margin-top: 0.2em;
+}
+.sidebar ul a .fa{
+	margin-right: 0.5em;
+}
+
 
 .site-header{
-	font-size: 3em;
+	padding: 1em 1em 1em 1em;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.site-header .header{
+	background-color: #E9EAF1;
+	color: #4A4F64;
+}
+.site-header .header h1{
+	font-size: 2em;
+	padding: 0.1em 0 0.1em 0.3em;
 }
 
-.site-footer{
-	font-size: 0.5em;
+
+.content{
+	padding: 0em 1em 1em 1em;
+	background-color: #FFFFFF;
+	position: relative;
+	color: #4A4F64;
 }
+
+
+.site-footer{
+	padding: 0em 1em 1em 1em;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.site-footer .footer{
+	background-color: #E9EAF1;
+	font-size: 0.8em;
+	text-align: center;
+	color: #4A4F64;
+}
+
+
+.error{
+	background-color: #E9EAF1;
+	color: ;
+	padding: 2em 0em 3em 0em;
+	text-align: center;
+}
+
