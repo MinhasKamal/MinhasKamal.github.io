@@ -1,5 +1,7 @@
 'use strict';
 
+var siteHeaderText={};
+
 var minhasKamalPersonalWebsite = angular.module('minhasKamalPersonalWebsite', [
 	'ngRoute',
 	'homeModule',

@@ -4,5 +4,7 @@
 }
 
 .profile-picture-1{
-    background: url('minhaskamal_profile_picture_1.png') no-repeat 0 0;
+	background-image:url('minhaskamal_profile_picture_1.jpg');
+	background-size:cover;
+    background-repeat:no-repeat;
 }
