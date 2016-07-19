@@ -1,5 +1,17 @@
-h1, h2, h3, h4, h5, h6{
+body{
+	font-family: sans-serif, arial;
+    color: #4A4F64;
+}
+
+h1, h2, h3, h4, h5, h6, p{
 	margin: 0;
+}
+
+a{
+	color: #004d99;
+}a:hover{
+	text-decoration: underline;
+	color: #004d99;
 }
 
 
@@ -15,19 +27,18 @@ h1, h2, h3, h4, h5, h6{
     padding: 0;
     width: 100%;
 	background-color: #E9EAF1;
+	font-size: 1.1em;
 }
 .sidebar li a {
     display: block;
-    color: #4A4F64;
     padding: 0.5em 0 0.5em 0.8em;
+	color: #4A4F64;
     text-decoration: none;
 	text-transform: capitalize;
-}
-.sidebar li a.active {
+}.sidebar li a.active {
     background-color: #4A4F64;
     color: #FFFFFF;
-}
-.sidebar li a:hover:not(.active) {
+}.sidebar li a:hover:not(.active) {
     background-color: #d0d2e1;
     color: #4A4F64;
 }
@@ -43,11 +54,13 @@ h1, h2, h3, h4, h5, h6{
 .sidebar .profile  h1{
 	text-align: center;
     font-size: 2.5em;
-    color: #4A4F64;
 	margin-top: 0.2em;
 }
 .sidebar ul a .fa{
 	margin-right: 0.5em;
+}
+.sidebar .profile h1{
+	font-size: 2.4em;
 }
 
 
@@ -59,10 +72,9 @@ h1, h2, h3, h4, h5, h6{
 }
 .site-header .header{
 	background-color: #E9EAF1;
-	color: #4A4F64;
 }
 .site-header .header h1{
-	font-size: 2em;
+	font-size: 2.5em;
 	padding: 0.3em 0 0.3em 0.5em;
 }
 
@@ -72,11 +84,9 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0em 1em 1em 1em;
 	background-color: #FFFFFF;
 	position: relative;
-	color: #4A4F64;
 }
 .content .content-section{
 	background-color: #E9EAF1;
-	color: #4A4F64;
 	padding: 1em 1em 1em 1em;
 	text-align: justify;
 }
@@ -101,20 +111,19 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #E9EAF1;
 	font-size: 0.8em;
 	text-align: center;
-	color: #4A4F64;
 }
-.site-footer .footer .link-group a{
+.site-footer .footer a{
 	color: #4A4F64;
+}.site-footer .footer a:hover{
+	color: #4A4F64;
+	text-decoration: underline;
 }
 
 
 /********************************************************/
-.error{
-	background-color: #E9EAF1;
-	color: #4A4F64;
-	padding: 2em 0em 3em 0em;
-	text-align: center;
-}
+/*.error{
+	color: red !important;
+}*/
 
 
 
