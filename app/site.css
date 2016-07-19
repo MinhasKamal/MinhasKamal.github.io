@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .site-header .header h1{
 	font-size: 2em;
-	padding: 0.1em 0 0.1em 0.3em;
+	padding: 0.3em 0 0.3em 0.5em;
 }
 
 
@@ -73,6 +73,20 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #FFFFFF;
 	position: relative;
 	color: #4A4F64;
+}
+.content .content-section{
+	background-color: #E9EAF1;
+	color: #4A4F64;
+	padding: 1em 1em 1em 1em;
+	text-align: justify;
+}
+.content .content-seperator1{
+	background-color: #FFFFFF;
+	padding: 1em 0em 0em 0em;
+}
+.content .content-seperator2{
+	background-color: #d0d2e1;
+	padding: 1px 0em 0em 0em;
 }
 
 
@@ -97,7 +111,7 @@ h1, h2, h3, h4, h5, h6{
 /********************************************************/
 .error{
 	background-color: #E9EAF1;
-	color: ;
+	color: #4A4F64;
 	padding: 2em 0em 3em 0em;
 	text-align: center;
 }
