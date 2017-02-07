@@ -1,10 +1,56 @@
 .profile-picture{
-	width: 210px;
-	height: 220px; 
-}
-
-.profile-picture-1{
-	background-image:url('minhaskamal_profile_picture_1.jpg');
+	width: 15em;
+	height: 16em; 
 	background-size:cover;
     background-repeat:no-repeat;
+}
+.profile-picture-1{
+	background-image:url('minhaskamal-profile-picture.jpg');
+}
+
+.icon{
+	height: 6em; 
+	width: 6em;
+	background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.icon-github{
+	background-image:url('icon-github.png');
+}
+.icon-quora{
+	background-image:url('icon-quora.png');
+}
+.icon-stackoverflow{
+	background-image:url('icon-stackoverflow.png');
+}
+.icon-youtube{
+	background-image:url('icon-youtube.png');
+}
+.icon-linkedin{
+	background-image:url('icon-linkedin.png');
+}
+.icon-medium{
+	background-image:url('icon-medium.png');
+}
+.icon-bitbucket{
+	background-image:url('icon-bitbucket.png');
+}
+.icon-slideshare{
+	background-image:url('icon-slideshare.png');
+}
+.icon-aboutme{
+	background-image:url('icon-aboutme.png');
+}
+.icon-pinterest{
+	background-image:url('icon-pinterest.png');
+}
+.icon-researchgate{
+	background-image:url('icon-researchgate.png');
+}
+.icon-sourceforge{
+	background-image:url('icon-sourceforge.png');
+}
+.icon-twitter{
+	background-image:url('icon-twitter.png');
 }
