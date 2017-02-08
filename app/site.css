@@ -140,7 +140,6 @@ a{
 
 .contact .social-site-list{
     overflow: auto;
-    
     box-sizing: border-box;
     display: inline-block;
 }
@@ -153,5 +152,15 @@ a{
 }.social-site:hover{
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+.message ul{
+    list-style-type: none;
+    padding: 0;
+}
+.message .alert{
+    margin: 0;
+}
+.message .submit_button{
+    margin: 0.5em 20em 0 1em;
 }
 
