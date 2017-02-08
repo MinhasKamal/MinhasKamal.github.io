@@ -139,7 +139,11 @@ a{
     float: left;
     margin: 0.5em;
 }
+.social-site {
+    transition: filter .4s;
+}
 .social-site:hover{
-    
+    -webkit-filter: invert(100%);
+	filter: invert(100%);
 }
 
