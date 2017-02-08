@@ -118,7 +118,12 @@ a{
     color: #4A4F64;
     text-decoration: underline;
 }
-
+.site-footer .quote{
+    padding: 0em 0em 0.5em 0em;
+}.site-footer .quote a:hover{
+    text-decoration: none;
+    color: rgb(180, 60, 60);
+}
 
 /********************************************************/
 .error .icon-404{
@@ -142,8 +147,7 @@ a{
 }
 .social-site {
     transition: filter .4s;
-}
-.social-site:hover{
+}.social-site:hover{
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
