@@ -145,6 +145,6 @@ a{
 }
 .social-site:hover{
     -webkit-filter: invert(100%);
-	filter: invert(100%);
+    filter: invert(100%);
 }
 
