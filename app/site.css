@@ -90,6 +90,9 @@ a{
     padding: 1em 1em 1em 1em;
     text-align: justify;
 }
+.content .content-section h4{
+    margin: 0em 0em 0.5em 0em;
+}
 .content .content-seperator1{
     background-color: #FFFFFF;
     padding: 1em 0em 0em 0em;
@@ -118,7 +121,12 @@ a{
     color: #4A4F64;
     text-decoration: underline;
 }
-
+.site-footer .quote{
+    padding: 0em 0em 0.5em 0em;
+}.site-footer .quote a:hover{
+    text-decoration: none;
+    color: rgb(180, 60, 60);
+}
 
 /********************************************************/
 .error .icon-404{
@@ -132,7 +140,6 @@ a{
 
 .contact .social-site-list{
     overflow: auto;
-    
     box-sizing: border-box;
     display: inline-block;
 }
@@ -142,9 +149,18 @@ a{
 }
 .social-site {
     transition: filter .4s;
-}
-.social-site:hover{
+}.social-site:hover{
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+.message ul{
+    list-style-type: none;
+    padding: 0;
+}
+.message .alert{
+    margin: 0;
+}
+.message .submit_button{
+    margin: 0.5em 20em 0 1em;
 }
 
