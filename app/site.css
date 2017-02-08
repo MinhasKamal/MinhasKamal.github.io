@@ -121,9 +121,10 @@ a{
 
 
 /********************************************************/
-/*.error{
-    color: red !important;
-}*/
+.error .icon-404{
+    margin: auto;
+    margin-top: 2em;
+}
 
 
 

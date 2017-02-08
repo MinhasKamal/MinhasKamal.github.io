@@ -14,6 +14,12 @@
 	background-size:cover;
     background-repeat:no-repeat;
 }
+.icon-large{
+	height: 12em; 
+	width: 12em;
+	background-size:cover;
+    background-repeat:no-repeat;
+}
 
 .icon-github{
 	background-image:url('icon-github.png');
@@ -53,4 +59,8 @@
 }
 .icon-twitter{
 	background-image:url('icon-twitter.png');
+}
+
+.icon-404{
+	background-image:url('icon-404.png');
 }
