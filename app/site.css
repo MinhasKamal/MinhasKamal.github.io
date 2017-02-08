@@ -90,6 +90,9 @@ a{
     padding: 1em 1em 1em 1em;
     text-align: justify;
 }
+.content .content-section h4{
+    margin: 0em 0em 0.5em 0em;
+}
 .content .content-seperator1{
     background-color: #FFFFFF;
     padding: 1em 0em 0em 0em;
