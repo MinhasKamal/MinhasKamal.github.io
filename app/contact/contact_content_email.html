@@ -2,31 +2,28 @@
     <h3>Send Me a Message</h3> 
 </div>
 <div class="content-seperator2"></div>
-<div class="content-section">
-    <form class="message" name='send_message' action="http://www.minhaskamal.webuda.com/contact/script/send_mail2.php" method="post" onSubmit="return validation();">
+<div class="content-section" ng-controller="messageSender">
+    <form class="message" ng-submit="sendMessage()">
 		<ul>
-			<li>
-				<div class="col-md-2">First Name</div>
-				<input type="text" name="first_name" class="col-md-8 message_input" />
-				<div class="col-md-2 alert first_name_alert"></div>
+			<li class="col-md-12 field">
+				<input type="text" ng-model="first_name" class="col-md-8 message_input" placeholder="First Name"/>
+				<div class="col-md-4 alert">{{first_name_alert}}</div>
 			</li>
-			<li>
-				<div class="col-md-2">Last Name</div>
-				<input type="text" name="last_name" class="col-md-8 message_input" />
-				<div class="col-md-2 alert last_name_alert"></div>
+			<li class="col-md-12 field">
+				<input type="text" ng-model="last_name" class="col-md-8 message_input" placeholder="Last Name"/>
+				<div class="col-md-4 alert">{{last_name_alert}}</div>
 			</li>
-			<li>
-				<div class="col-md-2">Email</div>
-				<input type="text" name="email" class="col-md-8 message_input" />
-				<div class="col-md-2 alert email_alert"></div>
-			</li>
-			<li>
-				<div class="col-md-2">Message</div>
-				<textarea style="resize:vertical; min-height:6em; max-height:20em;" name="message" class="col-md-8 message_input"></textarea>
-				<div class="col-md-2 alert message_alert"></div>
+			<li class="col-md-12 field">
+				<input type="text" ng-model="email" class="col-md-8 message_input" placeholder="Email Address"/>
+				<div class="col-md-4 alert">{{email_alert}}</div>
+			</li class="col-md-12">
+			<li class="col-md-12 field">
+				<textarea ng-model="message" class="col-md-8 message_input message_box" placeholder="Message"></textarea>
+				<div class="col-md-4 alert">{{message_alert}}</div>
 			</li>
 			<li>
 				<input type="submit" name="submit" value="Submit" class="submit_button"/>
+                <div class="col-md-10 message_sent">{{message_sent}}</div>
 			</li>
 		</ul>
 	</form>

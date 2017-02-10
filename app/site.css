@@ -125,7 +125,7 @@ a{
     padding: 0em 0em 0.5em 0em;
 }.site-footer .quote a:hover{
     text-decoration: none;
-    color: rgb(180, 60, 60);
+    color: rgb(200, 60, 60);
 }
 
 /********************************************************/
@@ -157,10 +157,25 @@ a{
     list-style-type: none;
     padding: 0;
 }
+.message .field{
+    margin: 0 0 0.5em 0;
+}
 .message .alert{
     margin: 0;
+    padding: 0 0 0 1em;
+    color: rgb(200, 60, 60);
+}
+.message .message_box{
+    resize: vertical; 
+    min-height: 6em; 
+    max-height: 20em;
 }
 .message .submit_button{
-    margin: 0.5em 20em 0 1em;
+    margin: 0 0 0 1em;
 }
-
+.message .message_sent{
+    margin: 0;
+    padding: 0.1em 0 0 0;
+    float: right;
+    color: rgb(60, 110, 190);
+}
