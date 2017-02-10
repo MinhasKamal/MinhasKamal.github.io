@@ -6,15 +6,15 @@
     <form class="message" ng-submit="sendMessage()">
 		<ul>
 			<li class="col-md-12 field">
-				<input type="text" ng-model="first_name" class="col-md-8 message_input" placeholder="First Name"/>
+				<input type="text" name="firstname" ng-model="first_name" class="col-md-8 message_input" placeholder="First Name"/>
 				<div class="col-md-4 alert">{{first_name_alert}}</div>
 			</li>
 			<li class="col-md-12 field">
-				<input type="text" ng-model="last_name" class="col-md-8 message_input" placeholder="Last Name"/>
+				<input type="text" name="lastname" ng-model="last_name" class="col-md-8 message_input" placeholder="Last Name"/>
 				<div class="col-md-4 alert">{{last_name_alert}}</div>
 			</li>
 			<li class="col-md-12 field">
-				<input type="text" ng-model="email" class="col-md-8 message_input" placeholder="Email Address"/>
+				<input type="text" name="email" ng-model="email" class="col-md-8 message_input" placeholder="Email Address"/>
 				<div class="col-md-4 alert">{{email_alert}}</div>
 			</li class="col-md-12">
 			<li class="col-md-12 field">
