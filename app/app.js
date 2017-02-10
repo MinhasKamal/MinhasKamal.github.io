@@ -7,6 +7,7 @@ var minhasKamalPersonalWebsite = angular.module('minhasKamalPersonalWebsite', [
     'homeModule',
     'contactModule',
     'workModule',
+    'aboutModule',
     'errorModule',
     'sidebarModule',
     'siteHeaderModule',
