@@ -12,6 +12,7 @@ Prgrmmng:
 Wrtng:
 <a href="https://www.quora.com/profile/Minhas-Kamal">Quora</a> -
 <a href="http://stackoverflow.com/users/4684058/minhas-kamal">StackOverflow</a> -
+<a href="https://www.gitbook.com/@minhaskamal">GitBook</a> -
 <a href="http://www.slideshare.net/100005232690054">SlideShare</a> -
 <a href="https://medium.com/@minhaskamal">Medium</a> -
 <a href="https://www.blogger.com/profile/08180962980593316610">Blogger</a>
