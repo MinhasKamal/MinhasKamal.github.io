@@ -128,13 +128,6 @@ a{
     color: rgb(180, 60, 60);
 }
 
-/********************************************************/
-.error .icon-404{
-    margin: auto;
-    margin-top: 2em;
-}
-
-
 
 /********************************************************/
 
@@ -153,14 +146,3 @@ a{
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
-.message ul{
-    list-style-type: none;
-    padding: 0;
-}
-.message .alert{
-    margin: 0;
-}
-.message .submit_button{
-    margin: 0.5em 20em 0 1em;
-}
-
