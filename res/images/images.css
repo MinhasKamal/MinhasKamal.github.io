@@ -2,7 +2,7 @@
 	width: 15em;
 	height: 16em; 
 	background-size:cover;
-    background-repeat:no-repeat;
+	background-repeat:no-repeat;
 }
 .profile-picture-1{
 	background-image:url('minhaskamal-profile-picture.jpg');
@@ -12,13 +12,13 @@
 	height: 6em; 
 	width: 6em;
 	background-size:cover;
-    background-repeat:no-repeat;
+	background-repeat:no-repeat;
 }
 .icon-large{
 	height: 12em; 
 	width: 12em;
 	background-size:cover;
-    background-repeat:no-repeat;
+	background-repeat:no-repeat;
 }
 
 .icon-github{
@@ -30,30 +30,18 @@
 .icon-stackoverflow{
 	background-image:url('icon-stackoverflow.png');
 }
-.icon-youtube{
-	background-image:url('icon-youtube.png');
-}
 .icon-linkedin{
 	background-image:url('icon-linkedin.png');
-}
-.icon-medium{
-	background-image:url('icon-medium.png');
-}
-.icon-bitbucket{
-	background-image:url('icon-bitbucket.png');
 }
 .icon-slideshare{
 	background-image:url('icon-slideshare.png');
 }
-.icon-pinterest{
-	background-image:url('icon-pinterest.png');
-}
 .icon-researchgate{
 	background-image:url('icon-researchgate.png');
 }
-.icon-sourceforge{
-	background-image:url('icon-sourceforge.png');
-}
 .icon-flickr{
 	background-image:url('icon-flickr.png');
+}
+.icon-goodreads{
+	background-image:url('icon-goodreads.png');
 }
