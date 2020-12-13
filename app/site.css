@@ -131,7 +131,7 @@ a{
 
 /********************************************************/
 
-.contact .social-site-list{
+.contact .social-site-list {
     overflow: auto;
     box-sizing: border-box;
     display: inline-block;
@@ -142,7 +142,21 @@ a{
 }
 .social-site {
     transition: filter .4s;
-}.social-site:hover{
+}.social-site:hover {
     -webkit-filter: invert(100%);
     filter: invert(100%);
+}
+
+/*********************************************************/
+
+.work-summary {
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.work-summary-items {
+    float: left;
+    margin: 0.5em;
+    height: 5em;
+    width: auto;
 }
