@@ -1,22 +1,26 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: sans-serif, arial;
     color: #4A4F64;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
-a{
+a {
     color: #004d99;
-}a:hover{
+}a:hover {
     text-decoration: underline;
     color: #004d99;
 }
 
 
 /********************************************************/
-.sidebar{
+.sidebar {
     padding: 1em 0em 1em 1em;
     background-color: #FFFFFF;
     position: relative;
@@ -42,72 +46,72 @@ a{
     background-color: #d0d2e1;
     color: #4A4F64;
 }
-.sidebar .profile{
+.sidebar .profile {
     margin-bottom: 1em;
     padding-top: 1em;
     padding-bottom: 0.5em;
     background-color: #E9EAF1;
 }
-.sidebar .profile .profile-picture{
+.sidebar .profile .profile-picture {
     margin: auto;
 }
-.sidebar .profile  h1{
+.sidebar .profile  h1 {
     text-align: center;
     font-size: 2.5em;
     margin-top: 0.2em;
 }
-.sidebar ul a .fa{
+.sidebar ul a .fa {
     margin-right: 0.5em;
 }
-.sidebar .profile h1{
+.sidebar .profile h1 {
     font-size: 2.4em;
 }
 
 /********************************************************/
-.content{
+.content {
     padding: 1em 1em 1em 1em;
     background-color: #FFFFFF;
     position: relative;
 }
-.content .content-section{
+.content .content-section {
     background-color: #E9EAF1;
     padding: 1em 1em 1em 1em;
     text-align: justify;
 }
-.content .content-section h4{
+.content .content-section h4 {
     margin: 0em 0em 0.5em 0em;
 }
-.content .content-seperator1{
+.content .content-seperator1 {
     background-color: #FFFFFF;
     padding: 1em 0em 0em 0em;
 }
-.content .content-seperator2{
+.content .content-seperator2 {
     background-color: #d0d2e1;
     padding: 1.5px 0em 0em 0em;
 }
 
 
 /********************************************************/
-.site-footer{
+.site-footer {
     padding: 0em 1em 1em 1em;
     background-color: #FFFFFF;
     position: relative;
 }
-.site-footer .footer{
+.site-footer .footer {
     padding: 1em 0em 1em 0em;
     background-color: #E9EAF1;
     font-size: 0.8em;
     text-align: center;
 }
-.site-footer .footer a{
+.site-footer .footer a {
     color: #4A4F64;
-}.site-footer .footer a:hover{
+}.site-footer .footer a:hover {
     color: #4A4F64;
     text-decoration: underline;
 }
-.site-footer .quote{
+.site-footer .quote {
     padding: 0em 0em 0.5em 0em;
-}.site-footer .quote a:hover{
+}.site-footer .quote a:hover {
     text-decoration: none;
     color: rgb(180, 60, 60);
 }
@@ -143,4 +147,43 @@ a{
     margin: 0.5em;
     height: 5em;
     width: auto;
+}
+
+/*********************************************************/
+
+.photo-gallery .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.photo-gallery .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.photo-gallery .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 800px) {
+    .photo-gallery .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .photo-gallery .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
