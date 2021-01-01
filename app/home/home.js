@@ -14,9 +14,7 @@ homeModule.config([
                 controller: [
                 '$scope',
                 
-                function($scope){
-                    siteHeaderText.value="I want to make the next morning more beautiful for the world.";
-                }],
+                function($scope){}],
             });
     }
 ]);

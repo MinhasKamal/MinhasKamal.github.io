@@ -1,19 +1,16 @@
 'use strict';
 
-var siteHeaderText={};
-
 var minhasKamalPersonalWebsite = angular.module('minhasKamalPersonalWebsite', [
     'ngRoute',
     'homeModule',
     'educationModule',
-    'publicationsModule',
-    'projectsModule',
+    'projectsAndPublicationsModule',
     'experienceModule',
     'otherActivitiesModule',
+    'photoGalleryModule',
     'contactModule',
     'errorModule',
     'sidebarModule',
-    'siteHeaderModule',
     'siteFooterModule',
 ]);
 

@@ -14,9 +14,7 @@ educationModule.config([
                 controller: [
                 '$scope',
 
-                function($scope) {
-                    siteHeaderText.value="Education";
-                }],
+                function($scope) {}],
             });
     }
 ]);

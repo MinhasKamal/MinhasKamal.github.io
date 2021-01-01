@@ -14,9 +14,7 @@ otherActivitiesModule.config([
                 controller: [
                 '$scope',
 
-                function($scope){
-                    siteHeaderText.value="Extracurricular + Leisure Activities";
-                }],
+                function($scope){}],
             });
     }
 ]);

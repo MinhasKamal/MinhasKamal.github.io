@@ -14,9 +14,7 @@ experienceModule.config([
                 controller: [
                 '$scope',
                 
-                function($scope){
-                    siteHeaderText.value="Professional Experience";
-                }],
+                function($scope){}],
             });
     }
 ]);
