@@ -1,16 +1,16 @@
 'use strict';
 
-var homeModule = angular.module('homeModule', [
+var introModule = angular.module('introModule', [
     'ngRoute',
 ]);
 
-homeModule.config([
+introModule.config([
     '$routeProvider',
     
     function ($routeProvider) {
         $routeProvider
-            .when('/home', {
-                templateUrl: 'app/home/home.html',
+            .when('/intro', {
+                templateUrl: 'app/intro/intro.html',
                 controller: [
                 '$scope',
                 

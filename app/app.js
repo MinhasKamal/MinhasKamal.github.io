@@ -2,7 +2,7 @@
 
 var minhasKamalPersonalWebsite = angular.module('minhasKamalPersonalWebsite', [
     'ngRoute',
-    'homeModule',
+    'introModule',
     'educationModule',
     'projectsAndPublicationsModule',
     'experienceModule',
@@ -20,7 +20,7 @@ minhasKamalPersonalWebsite.config([
     function($routeProvider) {
         $routeProvider
             .when('/', {
-                redirectTo: '/home',
+                redirectTo: '/intro',
             })
             .otherwise({
                 redirectTo: '/error',
