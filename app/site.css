@@ -137,15 +137,12 @@ a {
 
 /*********************************************************/
 
-.work-summary {
-    overflow: auto;
-    box-sizing: border-box;
+.highlights {
     display: inline-block;
 }
-.work-summary-items {
-    float: left;
+.highlight-items {
     margin: 0.5em;
-    height: 6em;
+    height: 7em;
     width: auto;
 }
 
