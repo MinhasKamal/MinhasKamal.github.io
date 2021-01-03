@@ -159,8 +159,8 @@ a {
     padding: 0 4px;
 }
 
-.photo-gallery .column img {
-    margin-top: 8px;
+.photo-gallery .column img, .photo-gallery .column iframe {
+    margin-bottom: 8px;
     vertical-align: middle;
     width: 100%;
 }
